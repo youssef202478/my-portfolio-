@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hello/youssef</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/187e43257e.js" crossorigin="anonymous"></script>
+</head>
+<!----loading screen-->
+<body onload="hideloading()">
+    <div id="loading">
+        <span class="spinner"></span>
+    </div>
+    <!-- Header -->
+    <div id="header">
+        
+        <div class="container">
+            <nav>
+                <h1 class="logo">YOUSSEF</h1>
+                
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <li><h3>the site is still under maintenance,just an experiment</h3></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer>frontend / Student</p>
+                <h1>Hi, I'm <span>Youssef</span> Chemrah<br> Welcome to my site</h1>
+            </div>
+        </div>
+    </div>
+    <!--------------about---------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/me.jpg" alt="My Image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, ipsam quasi sapiente, est ea quis minus ullam ratione at velit excepturi sed tempore omnis incidunt. Nisi illo aut libero? Dolores?</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    
+                    <!-- Tab Contents -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><strong>Web Development>frontend</strong><br>HTML/CSS</li>
+                            <li><strong>2024</strong><br>CSS</li>
+                            <li><strong>2022</strong><br>HTML</li>
+                            <li><strong>The Coming Years</strong><br>XXXX</li>
+                        </ul>
+                    </div>
+    
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><strong>High School</strong><br>1BAC ETS: Electrical Technology Sciences</li>
+                            <li><strong>Languages</strong><br>FRA<br>ENG: Average</li>
+                            <li><strong>Math</strong><br>Good</li>
+                            <li><strong>Physics</strong><br>Good</li>
+                        </ul>
+                    </div>
+    
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><strong>Explorer</strong><br>Trip</li>
+                            <li><strong>Football Player</strong><br>CB/RWB</li>
+                            <li><strong>Gamer</strong><br>Action</li>
+                            <li><strong>Biker</strong><br>VTT</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Portfolio Section---chat gpt---hover -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/Capture d’écran .png" alt="Project 1">
+                    <div class="layer">
+                        <h3>Online Store</h3>
+                        <p>Still under maintenance, it's coming soon.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/img3.jpg" alt="Project2">
+                    <div class="layer">
+                        <h3>Website </h3>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More(the coming years,god willing)</a>
+        </div>
+    </div>
+    <!-- Contact Section -->
+    <div id="contact">
+        <div class="container">
+            <div class="contacte-left">
+                <h1 class="sub-title">Contact Info</h1>
+                <p><i class="fa-solid fa-envelope"></i> Email</p>
+                <p><b>youssefchemrah5@gmail.com</b></p>
+                <p><i class="fa-solid fa-phone"></i> Phone Number</p>
+                <p><b>06XXXXXX08</b></p>
+                <p><i class="fa-solid fa-location-dot"></i> Address</p>
+                <p><b>MAR</b></p>
+                <br>
+                <h3>My Social Profiles</h3>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/youssef.1dev/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="contacte-right">
+                <h1 class="sub-title">Contact Me<h3>this form is not working</h3></h1>
+                <form name="submit-to-google-sheet">
+                    <input type="text" id="name" name="Name" placeholder="Your Name" required>
+                    
+                    <input type="email" id="email" name="Email" placeholder="Your Email" required>
+                    
+                    <textarea id="message" name="Message" rows="6" placeholder="Your Message"></textarea>
+                    
+                    <button type="submit" class="btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+            <div class="logo2">
+                <img src="images/LOGO INSTA PROJECT.png" alt="Logo" />
+            </div>
+        </div>
+        <div class="copyright">
+            <p> <i class="fa-solid fa-code"></i> <i class="fa-solid fa-check"></i> YOUSSEF <i class="fa-regular fa-copyright"></i></p>
+        </div>
+    </div>
+    <!-------scripte loading-------->
+    <script>
+        function hideLoading() {
+            document.getElementById('loading').style.display = 'none';
+        }
+    
+        function showLoading() {
+            document.getElementById('loading').style.display = 'flex';
+        }
+    
+        document.body.classList.add('loading-active');
+    
+        window.addEventListener('load', function () {
+            setTimeout(() => {
+                document.getElementById('loading').style.opacity = '0';
+                setTimeout(() => {
+                    document.getElementById('loading').style.display = 'none';
+                    document.body.classList.remove('loading-active');
+                }, 500); // التأخير لإخفاء شاشة التحميل
+            }, 2000); // مدة ظهور شاشة التحميل
+        });
+    
+        // إعادة التمرير إلى أعلى الصفحة عند تحديث الصفحة
+        window.onload = function () {
+            if (performance.navigation.type === 1 || performance.getEntriesByType('navigation')[0].type === 'reload') {
+                window.scrollTo(0, 0);
+            }
+        };
+    </script>
+    
+<!-----------------scripte-- chat gpt------------>
+<script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabName) {
+    const tabs = document.querySelectorAll('.tab-contents');
+    tabs.forEach(tab => tab.classList.remove('active-tab'));
+
+    const links = document.querySelectorAll('.tab-links');
+    links.forEach(link => link.classList.remove('active-link'));
+
+    document.getElementById(tabName).classList.add('active-tab');
+
+    const activeLink = document.querySelector(`[onclick="opentab('${tabName}')"]`);
+    activeLink.classList.add('active-link');
+    }
+</script>
+<script>
+
+    var sidemenu=document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+    
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxGY2sLh6kO89N4KOfTqXQ4BQWQfsesyURatOglu4PoY7Aalt6VY4SfHsFCCvFnGdpa/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
