@@ -37,4 +37,4 @@ To get a local copy up and running, follow these simple steps.
 ├── images/            # Directory containing images used in the portfolio
 └── scripts/           # Directory containing JavaScript files
 
-Feel free to review and let me know if there are any specific details you would like to add or modify.
+I want you to help me add anything new or beautiful to my website to make it great,if there are any errors please correct them 
