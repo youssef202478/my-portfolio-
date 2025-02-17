@@ -18,23 +18,6 @@ This portfolio project is designed to provide an overview of my skills and proje
 - Projects
 - Contact Information
 
-## Getting Started
-To get a local copy up and running, follow these simple steps.
 
-### Prerequisites
-- Git
-- A web browser
-
-### Installation
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/youssef202478/my-portfolio-.git
- 
-my-portfolio-
-│
-├── index.html         # The main HTML file
-├── index.css          # The main CSS file
-├── images/            # Directory containing images used in the portfolio
-└── scripts/           # Directory containing JavaScript files
 
 I want you to help me add anything new or beautiful to my website to make it great,if there are any errors please correct them 
