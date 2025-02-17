@@ -29,8 +29,8 @@ To get a local copy up and running, follow these simple steps.
 1. Clone the repository:
    ```sh
    git clone https://github.com/youssef202478/my-portfolio-.git
-   
-   my-portfolio-
+ 
+my-portfolio-
 │
 ├── index.html         # The main HTML file
 ├── index.css          # The main CSS file
